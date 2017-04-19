@@ -4,6 +4,8 @@ body {
 	padding:0;
 	height:100%;
 	background:green;
+	font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 #wrapper {
 	min-height:100%;
@@ -11,8 +13,48 @@ body {
 	overflow: hidden;
 }
 #content {
-	padding-bottom:50px;   /* Height of the footer element */
+	margin: 8% auto;
+	padding:40px 50px;   /* Height of the footer element */
+	background-color: white;
+	width: 550px;
+	border-radius: 5px;
 }
+
+#quote-text {
+	  text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+#quote-author {
+	  margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+    font-size: 1em;
+    text-align: right;
+}
+
+.btn {
+	font-size: 1.2em;
+	color: white;
+	background: black;
+	margin-top:  30px;
+}
+
+.btn:hover {
+	color: white;
+	background: black;
+	opacity: 0.8;
+}
+
+#button-new-quote {
+	float: right;
+}
+
 footer {
 	background:green;
 	width:100%;
