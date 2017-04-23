@@ -6,6 +6,7 @@ body {
 	background:green;
 	font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  color: black;
 }
 #wrapper {
 	min-height:100%;
@@ -62,4 +63,5 @@ footer {
 	position:absolute;
 	bottom:0;
 	left:0;
+	text-align: center;
 }
